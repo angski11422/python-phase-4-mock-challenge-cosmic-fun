@@ -20,7 +20,7 @@ function Header() {
   }
   return (
     <nav>
-        <img onClick={handleLogoClick} src={rocket} /><span><h1><Link to="/">Cosmic Travel Agency</Link></h1></span>
+        <img onClick={handleLogoClick} src={rocket} alt='rocket' /><span><h1><Link to="/">Cosmic Travel Agency</Link></h1></span>
     </nav>
   )
 

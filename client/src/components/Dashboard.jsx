@@ -26,7 +26,7 @@ function Dashboard() {
     fetch(`/scientists/${id}`, {method: "DELETE"})
     .then(r => {
       if (r.ok) {
-        setScientists(scientists => scientists.filter(sci => sci.id != id))
+        setScientists(scientists => scientists.filter(sci => sci.id !== id))
       }
     })
   }
